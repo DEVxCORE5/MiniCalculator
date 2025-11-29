@@ -16,6 +16,7 @@ This project demonstrates core programming concepts while being small and easy t
 - Multiplication (*)
 - Division (/)
 - Modulus (%) — integer modulus by default
+- Power (^)
 - Exit using `E` or `e`
 - Repeated operations via a loop
 - Console cleared between operations for cleaner UI
