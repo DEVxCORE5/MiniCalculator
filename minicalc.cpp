@@ -18,6 +18,7 @@ void calc()
         cout << "Enter  < * >  for Multiplication" << endl;
         cout << "Enter  < / >  for Division" << endl;
         cout << "Enter  < % >  for Modulus" << endl;
+        cout << "Enter  < ^ >  for Power"<<endl;
         cout << "Enter  < E >  for Exit" << endl << endl;
             
 
@@ -79,6 +80,17 @@ void calc()
             cout << num1 << " % " << num2 << " = " << num1 % num2<<endl<<endl;
             break;
         }
+
+         case '^':
+        {   
+            double base,power;
+            cout << "Enter Two Number for Power -> " << endl;
+            cin >> base;
+            cin>>power;
+            cout << base << " ^ " << power << " = " << pow(base,power)<<endl<<endl;
+            break;
+        }
+
 
         case 'E' :{
             cout<<"<--  Thank For Using This  --> " <<endl;
